@@ -1,0 +1,175 @@
+/* Estilos generales */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3 {
+    color: #333;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Estilos de encabezado */
+  
+  header {
+    background-color: #f8f8f8;
+    padding: 20px;
+  }
+  
+  nav ul {
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  /* Estilos de sección de inicio */
+  
+  #inicio {
+    background-image: url('inicio.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px;
+  }
+  
+  #inicio h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  #inicio h2 {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilos de sección de servicios */
+  
+  #servicios {
+    padding: 40px;
+  }
+  
+  #servicios h2 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  #servicios ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  #servicios li {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 4px;
+  }
+  
+  /* Estilos de sección de portafolio */
+  
+  #portafolio {
+    padding: 40px;
+    background-color: #f8f8f8;
+  }
+  
+  #portafolio h2 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .project {
+    text-align: center;
+  }
+  
+  .project img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 4px;
+  }
+  
+  /* Estilos de sección de nosotros */
+  
+  #nosotros {
+    padding: 40px;
+  }
+  
+  /* Estilos de sección de contacto */
+  
+  #contacto {
+    padding: 40px;
+    background-color: #f8f8f8;
+  }
+  
+  #contacto h2 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  form {
+    display: grid;
+    gap: 20px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilos de pie de página */
+  
+  footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+  }
+  

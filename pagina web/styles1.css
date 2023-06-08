@@ -1,0 +1,134 @@
+/* Estilos generales */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3 {
+    color: #333;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Estilos de encabezado */
+  
+  header {
+    background-color: #f8f8f8;
+    padding: 20px;
+      
+  }
+  
+  nav ul {
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  /* Estilos de sección de inicio */
+  
+  #inicio {
+    background-image: url('img/PROELTEC\ SAS\ Logo\ -\ Twitter\ Header\ Photo\ -\ 1500x500\ \(1\).png');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 170px;
+  }
+  
+  #inicio h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+      text-align-last: heredar;
+  }
+
+  #inicio h2 {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+   /* Estilos de sección de contacto */
+  
+   #contacto {
+    padding: 20px;
+    background-color: #f8f8f8;
+  }
+  
+  #contacto h2 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  form {
+    display: grid;
+    gap: 20px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 25%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+form input[type="submit"] {
+  width: 150px;
+  padding: 10px;
+}
+
+  
+  input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 7px 4px;
+    border-radius: 4px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+      width: 100px; /* Ancho del botón */
+  height: 40px; /* Alto del botón */
+     
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  
+  }
+  
+  /* Estilos de pie de página */
+  
+  footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+    font-size: 17px;
+    color: #105dee;
+  }
+  

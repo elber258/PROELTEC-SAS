@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROELTC S.A.S - Instalación y Mantenimiento</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'><!-- Archivo CSS para estilos personalizados -->
+    <script src="https://cdn.emailjs.com/sdk/2.6.4/email.min.js"></script>
+    <script>
+      (function() {
+        emailjs.init("service_7bs7g59"); // Reemplaza TU_USER_ID con tu User ID de EmailJS
+  
+        document.getElementById("contact-form").addEventListener("submit", function(event) {
+          event.preventDefault();
+  
+          // Configura los parámetros del correo electrónico
+          var templateParams = {
+            nombre: document.getElementById("nombre").value,
+            email: document.getElementById("email").value,
+            mensaje: document.getElementById("mensaje").value
+          };
+  
+          // Envía el correo electrónico
+          emailjs.send("service_7bs7g59", "template_cbp4v9g", templateParams)
+            .then(function(response) {
+              console.log("¡Correo electrónico enviado con éxito!", response);
+              alert("¡Correo electrónico enviado con éxito!");
+            }, function(error) {
+              console.error("Error al enviar el correo electrónico:", error);
+              alert("Error al enviar el correo electrónico.");
+            });
+        });
+      })();
+    </script>
+
+    
+</head>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+       
+       
+    </header>
+<section id="inicio">
+ 
+</section> 
+    <body>
+ <section id="contacto">
+        <h2>Contacto</h2>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" required>
+
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="correo" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" required></textarea>
+
+            <input type="submit" value="Enviar">
+            
+        </form>
+    </section>
+        </body>
+        <footer id="footer">
+            <div class="contenedor footer-content">
+                <div class="contact-us"></div>
+                    <h2 class="brand">PROELTEC S.A.S</h2>
+               <div class="social-media">
+                <a href="https://wa.me/message/YI4N45QFRY2OH1" class="social-media-icon">
+                    <i class='bx bxl-whatsapp'></i>
+                <a href="https://www.facebook.com" class="social-media-icon">
+                    <i class='bx bxl-facebook'></i>
+                </a>
+                <a href="https://www.instagram.com" class="social-media-icon">
+                    <i class='bx bxl-instagram' ></i>
+                </a>
+                <div class="line"></div>
+               </div>
+               
+               <p>CARRERA 32#17-198 SOACHA/CUNDINAMARCA</p>
+               <P>proeltecsascomercial@gmail.com</P>
+               <p>Cel: 3124166428</p>
+               <p>&copy; 2023 PROELTC S.A.S. Todos los derechos reservados.</p>
+              
+             
+            </div>
+          
+    
+        </footer>
+    </body>
+</html>

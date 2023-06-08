@@ -1,0 +1,347 @@
+/* Estilos generales */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3 {
+    color: #333333;
+  }
+  
+  a {
+    color: #0c22eb;
+    text-decoration: none;
+    background-size: cover ;
+    border-radius: top bottom;
+    
+
+   
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Estilos de encabezado */
+  
+  header {
+    background-color: #f8f8f8;
+    padding: 20px;
+      
+  }
+  
+  nav ul {
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+    
+  }
+  
+  /* Estilos de sección de inicio */
+  
+  #inicio {
+    background-image: url('img/PROELTEC\ SAS\ Logo\ -\ Twitter\ Header\ Photo\ -\ 1500x500\ \(1\).png');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 200px;
+  }
+  
+  #inicio h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+      text-align-last: heredar;
+  }
+
+  #inicio h2 {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  
+ #button {
+    display: inline-block;
+    background-color: #65aaf5;
+    color: #7e94f7;
+    padding: 4px 6px;
+    border-radius: 20px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  #button:hover {
+    background-color: #3df37a;
+    border-radius: 4%;
+    display: inline-block;
+    padding: 4px 6px;
+    
+  }
+  
+  /* Estilos de sección de servicios */
+  
+  #servicios {
+    padding: 40px;
+  }
+  h1{
+    font-size: large;
+    text-align: center;
+    border-top: #d1e1f1;
+  }
+ 
+  
+  
+  #servicios h2 {
+    text-align: center;
+   
+  }
+  
+  #servicios ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding-bottom: 5%;
+    text-align: center;
+  }
+  
+  #servicios li {
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+    
+  }
+  
+  /* Estilos de sección de portafolio */
+  
+  #portafolio {
+    padding: 4px;
+    background-color: #f8f8f8;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  #portafolio h2 {
+    text-align: center;
+    margin-bottom: 5px;
+    image-rendering: auto;
+    border-image: space;
+  }
+  
+  .project {
+    text-align: center;
+    margin-top: auto;
+  }
+  
+  .project img {
+    width: 50%;
+    max-width: 30px;
+    height: auto;
+    image-rendering: auto;
+    margin-bottom: 40px;
+    border-radius: 15px;
+  }
+  
+  /* Estilos de sección de nosotros */
+  
+  #nosotros {
+    padding: 40px;
+    background-color: #d1e1f1;
+    margin-top: auto;
+    text-align: center;
+
+  }
+  #nosotros ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  /*#Nosotros ul {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 20px;
+  }*/
+ /* #Nosotros h2 {
+    padding: 40px;
+    background-color: #d1e1f1;
+    margin-top: auto;
+    text-align: center;
+  }*/
+  /*#Nosotros h3 {
+    padding: 40px;
+    background-color: #f0f2f5;
+    margin-top: auto;
+    text-align: center;
+
+  }*/
+  /* Estilos de sección de contacto */
+  
+  #contacto {
+    padding: 20px;
+    background-color: #82d1f0;
+  }
+  
+  #contacto h2 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  form {
+    display: grid;
+    gap: 20px;
+   
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 25%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+form input[type="submit"] {
+  width: 150px;
+  padding: 10px;
+}
+
+  
+  input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 7px 4px;
+    border-radius: 4px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+      width: 100px; /* Ancho del botón */
+  height: 40px; /* Alto del botón */
+     
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  
+  }
+  
+  /* Estilos de pie de página */
+  
+  footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+    font-size: 17px;
+    color: #105dee;
+  }
+
+
+ footer a:hover {
+    text-decoration: underline;
+    color: #09eb54;
+    width: 50px;
+    height: 50px;
+}
+.social-media{
+  width: 57%;
+  display:inline;
+  justify-content: flex-end;
+}
+.social-media-icon{
+  display: inline-block;
+  margin-left: 5px;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #105dee;
+  border-radius: 100%;
+  text-align: center;
+  color: #105dee;
+}
+.social-media-icon{
+  font-size: 30px;
+  line-height: 60px;
+  border: solid;
+}
+.line{
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  height: 2px;
+  background: #fff;
+  margin-bottom: 40px;
+}
+
+/*.social-media-icon:hover{
+  background: #fff;
+  color:#764ba2;
+}*/
+#btn-mas-info{
+  background-color: #105dee;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  float: inline-end;
+  margin-top: 20px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 400;
+  cursor: pointer;
+  
+}
+#btn-mas-info:hover{
+  background-color: #fff;
+  color: #105dee;
+  display: inline-block;
+}
+.btn-mas-info{
+  display: inline-block;
+  margin-left: 5px;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #105dee;
+}
+
+.field {
+  margin-bottom: 10px;
+}
+
+.field label {
+  display: block;
+  font-size: 12px;
+  color: #777;
+}
+
+.field input {
+  display: block;
+  min-width: 250px;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+input[type="submit"] {
+  display: block;
+  padding: 6px 30px;
+  font-size: 14px;
+  background-color: #4460AA;
+  color: #fff;
+  border: none
+}
